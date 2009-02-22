@@ -36,9 +36,9 @@ if __FILE__ == $0
   class Tester
     def true?(op = nil, &block)
       if block
-        block.call
+        !!block.call
       else
-        op
+        !!op
       end
     end
   end
