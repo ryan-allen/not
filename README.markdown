@@ -43,6 +43,22 @@ This would keep me amused for hours.
 
 Enjoy!
 
+## P.S.
+
+Supports method arguments and blocks and etc, so all nice. Tested, too. Go <code>ruby not.rb</code> to run them. So, what I mean is:
+
+    @user.not.authorized?(:to_go_ice_skating)
+    @user.not.authorized? do
+      # working out some fancy thing that a
+      # user could do, like, ice skating
+    end
+
+All this works. So there.
+
+## P.P.S.
+
+I bet this has been done before and there are like, 100 libraries called not out there. I don't care, give me a break already!!!
+
 ---
 
 Copyright (c) 2009 Ryan Allen. Released under the MIT License.
